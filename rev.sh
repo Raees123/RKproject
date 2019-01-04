@@ -1,6 +1,6 @@
 #! /bin/bash
 
-echo "enter a no"
+echo "$name"
 read n
 revs=`echo $n | rev`
 if [ $n -eq $revs ]
